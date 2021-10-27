@@ -1,15 +1,60 @@
-body {
-   background-color: lightblue;
+body{
+    background-color: rgb(138, 138, 138);
+    background-image: url();
+
 }
-h1{
-  color:red;
-  font-size: larger;
-  font-style: normal;
-  text-decoration: underline;
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
 }
-h2{
-  color: red;
-  font-size: larger;
-  font-style: normal;
-  text-decoration: underline;
+
+header {
+   background-color: rgb(189, 189, 189);
+   Height: 118px;
+   text-align: center;
+   
+}
+
+nav {
+    background-color: rgb(238, 12, 12);
+    Height: 40px;
+    
+}
+
+ main {
+    background-color: rgb(189, 189, 189)e;
+    Height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;    
+    padding-right: 240px;
+ }
+ h1{
+     font-size: 60px;
+     color: white;
+     font-family: 'Times New Roman', Times, serif; 
+     text-align: center;
+ }
+
+ p{
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+ 
+ }
+
+ a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    /* text-decoration: none; */
+ }
+
+footer {
+    background-color: rgb(189, 189, 189);
+    Height: 100px;
+    
 }
