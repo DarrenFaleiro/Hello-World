@@ -1,60 +1,108 @@
-body{
-    background-color: rgb(138, 138, 138);
-    background-image: url();
+/* index page */
 
+html {
+  height: 100;
+}
+
+body {
+  background-color: rgba(60, 64, 100, 0.555);
+  background-image: url("images/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
 }
 
 header {
-   background-color: rgb(189, 189, 189);
-   Height: 118px;
-   text-align: center;
-   
+  background-color: rgba(83, 81, 81, 0.096);
+  height: 118px;
+  text-align: center;
 }
 
 nav {
-    background-color: rgb(238, 12, 12);
-    Height: 40px;
-    
+  background-color: rgba(0, 0, 0, 0.096);
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
- main {
-    background-color: rgb(189, 189, 189)e;
-    Height: 400px;
-    text-align: center;
-    padding-top: 80px;
-    padding-left: 240px;    
-    padding-right: 240px;
- }
- h1{
-     font-size: 60px;
-     color: white;
-     font-family: 'Times New Roman', Times, serif; 
-     text-align: center;
- }
+main {
+  background-color: rgb(189, 189, 189) e;
+  height: 800px;
+}
+h1 {
+  font-size: 50px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
 
- p{
-    font-size: 18px;
-    color: black;
-    font-family: 'Times New Roman', Times, serif; 
-    text-align: center;
- 
- }
+p {
+  font-size: 18px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: cente;
+}
 
- a{
-    color: white;
-    font-family: 'Times New Roman', Times, serif; 
-    text-align: center;
-    /* text-decoration: none; */
- }
+a {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  /* text-decoration: none; */
+}
 
 footer {
-    background-color: rgb(189, 189, 189);
-    Height: 100px;
-    
+  background-color: rgba(0, 0, 0, 0.096);
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer p {
+  background-color: rgba(0, 0, 0, 0.096);
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/* Apple Page css */
+
+.apple-page{
+  height: 1500px;
+}
+.apple-12 {
+  text-align: left;
+}
+.iphone-des {
+  text-align: left;
+  width: 250px;
+  height: 220px;
+  
+}
+.grid-iphone-12 {
+  image-resolution: widith: 250px;
+  height: 320px;
+  border: solid 2px black;
+}
+.related{
+  list-style: none;
+}
+
+.grid-iphone-13 {
+  image-resolution: widith: 250px;
+  height: 320px;
+  border: solid 2px black;
+
+
 }
