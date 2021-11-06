@@ -11,28 +11,99 @@
   <body>
     <div class="container">
       <header>
-        <img src="#" alt="Logo for Tech Deal" />
+        <img src="images/Logo.png" alt="Logo for Tech Deal" />
       </header>
 
       <nav>
         <a href="index.html">Home</a>
         <a href="apple.html">Apple</a>
-        <a href="">Microsoft</a>
-        <a href="">Basket</a>
+        <a href="microsoft.html">Microsoft</a>
         <a href="about.html">About Us </a>
       </nav>
+      <br />
+      <div>
+        <div class="flex-container">
+          <div class="flex-item-contact">
+            <h2>Address</h2>
+            Tech Deal LTD<br />
+            Innovation Center <br />
+            20-40 New Walk<br />
+            Leicester<br />
+            LE1 6TF <br />
+            UNITED KINGDOM<br /><br />
 
-      <main>
-        <p>
-          <strong>
             <a
-              href="mailto:techdeal@mywebsite.com?Subject= Support"
-              target="_blank"
-              >Contact Us</a
-            ></strong
-          >
-        </p>
-      </main>
+              class="button-email"
+              href="mailto:techdeal@example.com?Subject=  Question"
+              target="_top"
+              >Send Email</a
+            >
+            <br />
+            <br />
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  width="500"
+                  height="450"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=leicester%20ibm&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe
+                ><a href="https://vincheckeurope.eu">vincheckeurope.eu</a
+                ><br /><style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 450px;
+                    width: 500px;
+                  }</style
+                ><a href="https://embedmaps.info">Embed Google Maps</a
+                ><style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 450px;
+                    width: 500px;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+          <div class="flex-item-contact">
+            <h2>Contact Us</h2>
+            <form>
+              <label for="fname">Full Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="fullname"
+                placeholder="Your full name.."
+              />
+
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Your email address.."
+              />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+                style="height: 200px"
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
 
       <footer>
         <p>Tech Deal Ltd - Copyright &copy; 2021</p>
