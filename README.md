@@ -1,9 +1,7 @@
-# Welcome to my First website
+# Welcome to my First website - IBM "Code the Future" Project
 
-# **Visit My Tech Deal Website - IBM Code the Future Project**
-
-This is a Tech Deal Website for latest and greatest Deal.
 Visit the Website https://
+This is a Tech Deal Website for latest and greatest Deal.
 
 ## Front-End Web Development
 
