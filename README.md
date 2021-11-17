@@ -1,6 +1,6 @@
 # Welcome to my First website - IBM "Code the Future" Project
 
-Visit the Website https:https://darrenfaleiro.github.io/Tech-Deals/
+Visit the Website - https://darrenfaleiro.github.io/Tech-Deals/
 
 This is a Tech Deal Website for latest and greatest Deal.
 
